@@ -2,7 +2,7 @@ import Layout from './Layout'
 
 const Home = () =>{
     return (
-        <Layout title="Home Page" description="Home page des" className="">
+        <Layout title="" description="" className="">
             <div>Home page</div>
         </Layout>
     )
