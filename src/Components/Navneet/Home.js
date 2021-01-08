@@ -1,11 +1,16 @@
 import Layout from "./Layout";
 import FoodMenu from "../Prem/FoodMenu";
+import Navbar from './Navbar'
+import './Styles.css'
 
 const Home = () => {
   return (
-    <Layout title="" description="" className="">
-      <FoodMenu />
-    </Layout>
+    <div>
+      <Navbar />
+      <Layout title="" description="" className="">
+        <FoodMenu />
+      </Layout>
+    </div>
   );
 };
 

@@ -25,7 +25,7 @@ const SlidingImage = () => {
             style={{
               background: `url(${img1}) no-repeat`,
               height: "400px",
-              backgroundSize: "100% 100%"
+              backgroundSize: "100% 100%", 
             }}
           ></div>
         </div>
