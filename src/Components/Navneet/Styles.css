@@ -1,3 +1,67 @@
+/*
+    Navbar
+*/
+
 .nav_header{
-    background: #51e951;
+    background: #61c24d;
+    position: sticky;
+    top: 0;
+}
+
+.nav_header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.nav_container{
+    margin-left: 15em;
+    margin-right: 15em;
+}
+
+.brand{
+    padding: 10px 0;
+    float: left;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.nav_link{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600
+}
+
+.nav_link:hover{
+    color: rgba(243, 243, 243, 0.918)
+}
+
+.nav_link::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    transition: all ease-in-out 250ms;
+}
+
+.nav_link:hover::before{
+    width: 100%;
 }
