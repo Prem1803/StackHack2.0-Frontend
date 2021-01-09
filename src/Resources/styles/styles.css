@@ -6,6 +6,7 @@
     background: #61c24d;
     position: sticky;
     top: 0;
+    height: 70px
 }
 
 .nav_header::after{
@@ -20,7 +21,7 @@
 }
 
 .brand{
-    padding: 10px 0;
+    padding: 23px 0;
     float: left;
 }
 
@@ -37,7 +38,7 @@ nav ul{
 nav li{
     display: inline-block;
     margin-left: 70px;
-    padding-top: 10px;
+    padding-top: 23px;
     position: relative;
 }
 
@@ -65,3 +66,43 @@ nav li{
 .nav_link:hover::before{
     width: 100%;
 }
+
+/*
+    Cafeteria Card
+*/
+
+.CafeteriaDetails {
+    height: 300px;
+    width: 100%;
+    background-color: aquamarine;
+  }
+  
+  .FoodMenuItem {
+    margin-top: 1.2rem;
+    padding-left: 1rem;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 2.4rem;
+  }
+  .FoodTitle {
+    color: rgb(54, 54, 54);
+    margin: 0.8rem 0px 0.6rem;
+    font-size: 1.2rem;
+  }
+  .FoodDetails {
+    color: rgb(79, 79, 79);
+    margin: 0px 0px 0.4rem;
+    font-size: 0.9rem;
+  }
+  
+  .FondMenuItemImg {
+    border-radius: 0.8rem;
+    width: 100%;
+    height: 200px;
+    transform: none;
+    opacity: 1;
+    will-change: transform, opacity;
+    filter: unset;
+    transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
+  }
+  

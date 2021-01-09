@@ -1,7 +1,7 @@
 import Layout from "./Layout";
 import FoodMenu from "../../Core/FoodMenu";
 import Navbar from './Navbar'
-import './Styles.css'
+import '../../../Resources/styles/styles.css'
 
 const Home = () => {
   return (

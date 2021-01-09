@@ -1,5 +1,5 @@
 import MenuItem from "./MenuItems";
-import "./styles.css";
+import '../../Resources/styles/styles.css';
 const FoodMenu = () => {
   return (
     <div className="FoodMenu container">

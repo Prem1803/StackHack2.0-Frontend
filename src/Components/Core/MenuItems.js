@@ -1,5 +1,5 @@
-import fooditem from "./f5.webp";
-import "./styles.css";
+import fooditem from "../../Resources/images/Cafeteria/f5.webp"
+import "../../Resources/styles/styles.css";
 import ItemDetails from "./ItemDetails";
 
 const MenuItem = (props) => {
