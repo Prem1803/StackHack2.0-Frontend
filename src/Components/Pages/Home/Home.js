@@ -1,5 +1,5 @@
 import Layout from "./Layout";
-import FoodMenu from "../Prem/FoodMenu";
+import FoodMenu from "../../Core/FoodMenu";
 import Navbar from './Navbar'
 import './Styles.css'
 

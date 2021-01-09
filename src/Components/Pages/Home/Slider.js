@@ -1,8 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
-import img1 from '../../Resources/images/Slider/img1.jpg'
-import img2 from '../../Resources/images/Slider/img2.jpg'
-import img3 from '../../Resources/images/Slider/img3.jpg'
+import img1 from  '../../../Resources/images/Slider/img1.jpg'
+import img2 from '../../../Resources/images/Slider/img2.jpg'
+import img3 from '../../../Resources/images/Slider/img3.jpg'
 
 const SlidingImage = () => {
   const settings = {

@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Home from './Components/Navneet/Home'
+import Home from './Components/Pages/Home/Home'
 
 const Routes = () => {
   return (
