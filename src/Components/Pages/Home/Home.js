@@ -1,6 +1,6 @@
 import Layout from "./Layout";
 import FoodMenu from "../../Core/FoodMenu";
-import Navbar from './Navbar'
+import Navbar from '../../Core/Navbar'
 import '../../../Resources/styles/styles.css'
 
 const Home = () => {

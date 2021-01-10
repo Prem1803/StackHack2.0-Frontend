@@ -1,5 +1,5 @@
 import '../../Resources/styles/styles.css'
-import Navbar from '../Pages/Home/Navbar';
+import Navbar from '../Core/Navbar';
 
 const Register = () =>{
     return (

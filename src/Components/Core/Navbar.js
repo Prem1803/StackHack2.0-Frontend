@@ -5,7 +5,11 @@ const Navbar = () =>{
         <div className="nav_header">
             <div className="nav_container">
                 <div className="brand">
-                    <Link to="/">Cafe++</Link>
+                <Link to="/"className="nav_link_" style={{
+                    fontFamily: "Lobster, cursive", 
+                    fontSize: "3em ", 
+                    textDecoration: 'none'
+                }}><span style={{}}>C</span>afe++</Link>
                 </div>
                 <nav>
                     <ul>
