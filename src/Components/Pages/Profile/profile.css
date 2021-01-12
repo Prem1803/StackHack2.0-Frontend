@@ -1,0 +1,219 @@
+/*
+  Popup related
+*/
+#pos {
+  position: absolute;
+  top: 0;
+  margin-left: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.15);
+  display: none;
+}
+.apna-box {
+  margin-top: 140px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: 1px solid black;
+  height: 330px;
+}
+.chng-btn {
+  line-height: 20px;
+  color: #27ae60;
+  border-radius: 3px;
+  background-color: #ffff;
+  margin-top: 9px;
+  margin-left: 370px;
+}
+.chng-btn:hover {
+  background-color: #219150;
+}
+.dbox {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+.box-body {
+  margin-top: 5px;
+  height: 80%;
+}
+.label-inp {
+  padding-left: 2px;
+  padding-right: 3px;
+}
+
+.box-footer {
+  background-color: plum;
+}
+.form-inp {
+  margin-bottom: 4px;
+  margin-right: 3px;
+}
+.edit-heading {
+  display: inline-block;
+  margin-left: 350px;
+  font-family: sans-serif;
+  font-size: xx-large;
+  font-weight: lighter;
+  padding-top: 10px;
+}
+#close-icon {
+  cursor: pointer;
+  float: right;
+  color: #ccc;
+  margin-right: 5px;
+  background-color: white;
+  border: 0;
+}
+#close-icon:hover,
+#close-icon:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+#upld {
+  border: 0;
+  margin-left: 330px;
+}
+.inp1,
+.inp2,
+.inp3,
+.inp4 {
+  font-size: larger;
+}
+.inp1 {
+  margin-top: 3px;
+  margin-left: 125px;
+}
+.inp2 {
+  margin-left: 300px;
+}
+.inp3 {
+  margin-left: 120px;
+  border: 0.5px solid grey;
+}
+.inp4 {
+  border: 0.5px solid grey;
+  margin-left: 180px;
+}
+#icard {
+  border: 0;
+  margin-left: 175px;
+}
+
+/*
+    Genric
+*/
+.asd {
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.card-2 {
+  -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.card {
+  overflow: visible;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.body {
+  margin-left: 220px;
+  margin-top: 100px;
+  margin-right: 220px;
+}
+
+div.main-container {
+  padding-bottom: 10px;
+}
+#it1 {
+  margin: 10px 20px;
+  padding: 15px 310px 10px;
+  background-image: url(brick-wall-painted-white.jpg);
+  background-repeat: no-repeat;
+  background-size: 900px 400px;
+}
+.body {
+  align-items: center;
+  display: flex;
+  margin: 80px 50px 0 200px;
+}
+.svg {
+  height: 12px;
+  width: 12px;
+  margin-left: 1px;
+  margin-top: 1px;
+  margin-right: 2px;
+  margin-left: 22px;
+}
+.fname {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-left: 22px;
+}
+.lname {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-left: 6px;
+}
+.Empid {
+  padding-left: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 2px;
+}
+.wer {
+  text-align: center;
+}
+th,
+td {
+  text-align: center;
+}
+.trow {
+  margin-bottom: 1px;
+}
+.theadrow {
+  border-bottom: 1.5px solid black;
+}
+.t {
+  padding-left: 0;
+  text-align: center;
+  overflow: hidden;
+  margin-left: 1px;
+  margin-right: 0;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.Orgnm {
+  margin-top: -3px;
+  margin-left: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: small;
+}
+.edit-button {
+  margin-left: 596px;
+}
+.small {
+  font-size: smaller;
+}
+.circular--landscape {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.form {
+  visibility: hidden;
+}
